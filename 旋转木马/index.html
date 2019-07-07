@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<link rel="stylesheet" type="text/css" href="./css/carousel.css">
+
+<script src="./js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="./js/carousel.js"></script>
+<body>
+	<div class="poster-main" data-setting='{
+	"width":1000,
+	"height":270,
+	"posterWidth":500,
+	"posterHeight":270,
+	"scale":0.9,
+	"autoPlay":true,
+	"delay":4000,
+	"speed":500,
+	"verticalAlign":"middle"
+	}'>
+		<a href="javascript:void(0)" class="poster-btn poster-prev-btn"></a>
+		<a href="javascript:void(0)" class="poster-btn poster-next-btn"></a>
+		<div class="poster-list">
+			<div class="poster-item">
+				<a href=""><img src="./images/1.jpg"></a>
+			</div>
+			<div class="poster-item">
+				<a href=""><img src="./images/2.jpg"></a>
+			</div>
+			<div class="poster-item">
+				<a href=""><img src="./images/3.jpg"></a>
+			</div>
+			<div class="poster-item">
+				<a href=""><img src="./images/4.jpg"></a>
+			</div>
+			<div class="poster-item">
+				<a href=""><img src="./images/5.jpg"></a>
+			</div>
+			<div class="poster-item">
+				<a href=""><img src="./images/2.jpg"></a>
+			</div>
+			<div class="poster-item">
+				<a href=""><img src="./images/3.jpg"></a>
+			</div>
+			<div class="poster-item">
+				<a href=""><img src="./images/4.jpg"></a>
+			</div>
+			
+		</div>
+	</div>
+</body>
+<script type="text/javascript">
+	$(document).ready(function() {
+		Carousel.init($('.poster-main'));
+	})
+</script>
+</html>

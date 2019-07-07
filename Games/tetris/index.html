@@ -1,0 +1,36 @@
+﻿<html>
+<head>
+<link type="text/css" rel="stylesheet" href="tetris.css" />
+<script src="jquery.js"></script>
+<script src="core.js"></script>
+<script src="tetris.js"></script>
+<title>俄罗斯方块</title>
+</head>
+<body>
+<div id="parent">
+<div id="desktop"></div>
+<div id="foredesktop"></div>
+<div id="grade">得分：</div>
+</div>
+<script>
+var SIZE=40;
+var DOM=document.getElementById("desktop");
+var FOREDOM=document.getElementById("foredesktop");
+var a=new Controller({
+	Desktop:{
+		row:20,
+		col:30,
+		size:SIZE,
+		dom:DOM,
+		parent:this
+	},
+	Holder:{
+		size:SIZE,
+		container_dom:FOREDOM,
+		parent:this
+	}
+});
+
+</script>
+</body>
+</html>

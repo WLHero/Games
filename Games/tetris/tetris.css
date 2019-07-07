@@ -1,0 +1,7 @@
+#desktop{position:relative;background-color:#ededed;overflow:hidden;outline:1px solid black}
+#foredesktop{position:absolute;background-color:#ededed;right:-180px;top:0px;width:160px;height:160px;outline:1px solid black}
+.block{background:#000000;outline:1px solid rgba(255,255,255,0.5)}
+.blocks{}
+.parts{float:left}
+#desktop .active{background:#000000;outline:1px solid rgba(255,255,255,0.5)}
+#parent{position:relative;margin:0 auto}

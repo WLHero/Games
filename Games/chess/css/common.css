@@ -1,0 +1,22 @@
+body{margin:0;padding:0;font-size: 12px;}
+ul{list-style: none;padding: 0}
+a{color: #000;text-decoration: none}
+textarea,input{font-size: 12px;font-family: '黑体';outline: none;resize:none;}
+table{border-collapse: collapse;}
+.basecolor{color: #2e2e2e}
+ul.grad li{float:left;}
+#chessboard{
+	margin: 100px auto;
+	position: relative;
+	background: url(../image/bg.png) no-repeat -18px -20px;
+	width:380px;
+	height:430px;
+}
+#chessboard .chessman{
+	position: absolute;left: 0;top:0;width:40px;height: 40px;
+	line-height: 40px;border-radius: 100%;text-align: center;
+	font-size: 24px;font-weight: bold;margin:-20px 0 0 -20px;cursor: pointer;
+}
+#chessboard .click{box-shadow: 6px 6px 6px #2e2e2e;}
+#chessboard .black{color: #fff;background: #000}
+#chessboard .white{color: #000;background: #fff;border:2px solid #000;}

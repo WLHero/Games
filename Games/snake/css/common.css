@@ -1,0 +1,59 @@
+body{margin:0;padding:0;font-size: 12px;}
+ul{list-style: none;padding: 0}
+a{color: #000;text-decoration: none}
+textarea,input{font-size: 12px;font-family: '黑体';outline: none;resize:none;}
+table{border-collapse: collapse;}
+.basecolor{color: #2e2e2e}
+ul.grad li{float:left;}
+#desktop{
+	margin: 50px auto;
+	position: relative;
+	background: #ededed;
+}
+#desktop .food{
+	position: absolute;
+	background: #f00 !important;
+	;-webkit-animation:twinkling 2.1s infinite ease-in-out;
+	animation:twinkling 2.1s infinite ease-in-out;
+	-webkit-animation-fill-mode:both;
+	animation-fill-mode:both;
+}
+#desktop .block{
+	position: absolute;
+	transition: all 0.2s;
+	border-radius: 100%;
+}
+@-webkit-keyframes twinkling {
+	0% {
+	opacity:0.2;
+	filter:alpha(opacity=20);
+	-webkit-transform:scale(1);
+}
+50% {
+	opacity:0.5;
+	filter:alpha(opacity=50);
+	-webkit-transform:scale(1.12);
+}
+100% {
+	opacity:0.2;
+	filter:alpha(opacity=20);
+	-webkit-transform:scale(1);
+}
+}@keyframes twinkling {
+	0% {
+	opacity:0.2;
+	filter:alpha(opacity=20);
+	-webkit-transform:scale(1);
+}
+50% {
+	opacity:0.5;
+	filter:alpha(opacity=50);
+	-webkit-transform:scale(1.12);
+}
+100% {
+	opacity:0.2;
+	filter:alpha(opacity=20);
+	-webkit-transform:scale(1);
+}
+}
+

@@ -1,0 +1,34 @@
+/*@font-face {
+    font-family:'zfzcyh';
+    src: url('../fonts/xxxx.eot') format('embedded-opentype');
+
+}*/
+
+a:focus,input,textarea{outline: none;}
+*{margin:0px;padding:0px; box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; word-break:break-all; /*æ”¯æŒIEï¼Œchromeï¼ŒFFä¸æ”¯æŒ*/
+
+ã€€ã€€word-wrap:break-word;/*æ”¯æŒIEï¼Œchromeï¼ŒFF*/}
+.fl{float:left;}
+.fr{float:right;}
+h1,h2,h3,h4,h5,h6{font-weight: normal; line-height: 1;}
+a,span,i{ }
+.clear{ clear:both; height:0px; line-height:0px; font-size:0px; overflow:hidden;}
+ul,ol,li{ list-style:none; margin: 0; padding: 0;}
+a{ text-decoration:none;}
+a:hover{text-decoration: none;}
+h1{margin-top: 0px; margin-bottom: 0px;}
+p{margin-bottom: 0px; margin-top: 0px;}
+img{ border:0px; vertical-align:middle;}
+body{ overflow-x:hidden; padding: 50px;  font-family:Microsoft YaHei,Segoe UI,Tahoma,Arial,Verdana,sans-serif;line-height: 1; }
+em, i, u {
+    font-style: normal;
+}
+
+
+.poster-main{width: 800px; height: 270px; position: relative;}
+.poster-main .poster-list{position: relative; width: 800px; height: 270px;}
+.poster-main .poster-item{position: absolute; width: 640px; height: 100%; left: 0; top: 0;}
+.poster-main .poster-btn {width: 100px; height: 100%; top: 0; position: absolute; z-index: 40;}
+.poster-main .poster-prev-btn{left: 0; background:url(../images/prev.png) center center no-repeat;}
+.poster-main .poster-next-btn{right: 0; background:url(../images/next.png) center center no-repeat;}
+.poster-main a,.poster-main img{width: 100%; display: block;height: 100%; }
